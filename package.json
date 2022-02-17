@@ -1,0 +1,30 @@
+{
+  "name": "samplegitrepo",
+  "version": "1.0.0",
+  "description": "weather js api activity",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnestremos/SampleGitRepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnestremos/SampleGitRepo/issues"
+  },
+  "homepage": "https://github.com/jnestremos/SampleGitRepo#readme",
+  "dependencies": {
+    "@stdlib/datasets-us-states-abbr": "0.0.8",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
